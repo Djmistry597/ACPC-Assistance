@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PredictChoiceList">
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:hint="Predict Choice List"
+        android:paddingTop="10dp"
+        android:textColor="#0d0d0d"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:paddingLeft="94dp"
+        android:background="@drawable/grad_bg"/>
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Enter your ACPC Rank"
+        android:paddingLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textview4"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:text="View Predicted List"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_below="@+id/edittext1"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="300dp"
+        android:text="Back  to  Home"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
